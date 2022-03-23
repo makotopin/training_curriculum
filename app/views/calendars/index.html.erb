@@ -7,6 +7,7 @@
     <%= f.submit '保存' %>
   <% end %>
 </div>
+
 <div>
   <div class='calendar'>
     <% @week_days.each do |day| %>
@@ -20,8 +21,7 @@
             <li class='plan-list'>・<%= plan %></li>
           <% end %>
         <% end %>
-        </ul>
-      </div>
-    <% end %>
-  </div>
+      </ul>
+    </div>
+  <% end %>
 </div>
